@@ -1,0 +1,30 @@
+{
+    "ensure_newline_at_eof_on_save": true,
+    "font_size": 14,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+      "Vintage"
+    ],
+    "rulers":
+    [
+      80
+    ],
+    "show_encoding": true,
+    "show_line_endings": true,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "binary_file_patterns":
+    [
+      ".bundle/",
+      "bin/",
+      "log/",
+      "tmp/",
+      "test/",
+      "vendor/assets/fonts/"
+    ],
+    "draw_minimap_border": true,
+    "update_check": false,
+    "word_wrap": true
+  }

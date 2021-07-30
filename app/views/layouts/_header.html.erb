@@ -1,0 +1,14 @@
+<header class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <%= link_to "sample app", "/static_pages/home", id: "logo" %>
+        <nav>
+            <ul class="navbar navbar-expand-lg navbar-light">
+                <li class="navbar-brand"><%= link_to "Home", "/static_pages/home" %></li>
+                <li class="navbar-brand"><%= link_to "Help", "/static_pages/help" %></li>
+                <li class="navbar-brand"><%= link_to "Contact", "/static_pages/contact" %></li>
+                <li class="navbar-brand"><%= link_to "Post", :microposts %></li>
+                <li class="navbar-brand"><%= link_to "Log in", "#" %></li>
+            </ul>
+        </nav>
+    </div>
+</header>
