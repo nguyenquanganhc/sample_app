@@ -1,0 +1,40 @@
+vi:
+  layouts:
+    application:
+      title: "Hướng dẫn học Ruby on Rails"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    header:
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      login: "Đăng Nhập"
+    footer:
+      about: "Thông Tin"
+      contact: "Liên Hệ"
+      new: "Bài Báo"
+      tutorial: "Ruby on Rails cơ bản"
+  static_pages:
+    home:
+      fore_title: "Trang Chủ"
+      name: "App Minh Họa"
+      intro_1: "Đây là trang chủ của"
+      tutorial: "Ruby on Rails cơ bản"
+      intro_2: "App minh họa."
+      signup: "Đăng Ký Ngay"
+    help:
+      fore_title: "Trợ Giúp"
+      intro_1: "Tìm sự trợ giúp về  Ruby on Rails tại"
+      outro_1: "Trang trợ giúp của Rails Tutorial"
+      intro_2: "Tìm sự trợ giúp về  app minh họa này, vui lòng truy cập"
+      outro_2: "Sách Ruby on Rails Tutorial"
+    contact:
+      fore_title: "Liên Hệ"
+      intro: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      outro: "Trang liên hệ"
+    about:
+      fore_title: "Thông Tin"
+      intro: "Thông tin về Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      outro: "Trang thông tin"
+  users:
+    new:
+      fore_title: "Người Dùng"
