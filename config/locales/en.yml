@@ -1,4 +1,8 @@
 en:
+  shared:
+    error_messages:
+      error_1: "The form contains"
+      error_2: "Error"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -38,3 +42,15 @@ en:
   users:
     new:
       fore_title: "Sign Up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      pass_confirm: "Confirmation"
+      submit: "Create my account"
+    show:
+      fore_title: "Show"
+      success: "User found!"
+      error: "Could not found user!"
+    create:
+      success: "Welcome to the Sample App!"
+      error: "Error: Could not create new account"

@@ -13,8 +13,12 @@
     <div class="container">
       <li><%= link_to t(".english"), locale: "en" %></li>
       <li><%= link_to t(".vietnamese"), locale: "vi" %></li>
+      <% flash.each do |message_type, message| %>
+        <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+      <% end %>
       <%= yield %>
+      <%= render "layouts/footer" %>
+      <%= debug(params) if Rails.env.development? %>
     </div>
-    <%= render "layouts/footer" %>
   </body>
 </html>

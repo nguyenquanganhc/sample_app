@@ -12,3 +12,5 @@ email:
   valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 password:
   min_length: 5
+avatar:
+  size: 80
