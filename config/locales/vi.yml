@@ -11,7 +11,12 @@ vi:
     header:
       home: "Trang Chủ"
       help: "Trợ Giúp"
+      user: "Người dùng"
       login: "Đăng Nhập"
+      logout: "Đăng Xuất"
+      setting: "Cài Đặt"
+      profile: "Thông tin tài khoản"
+      account: "Tài Khoản"
     footer:
       about: "Thông Tin"
       contact: "Liên Hệ"
@@ -54,3 +59,13 @@ vi:
     create:
       success: "Tài khoản đã được tạo mới. Chào mừng bạn đến với Sample App!"
       error: "Lỗi: Không thể tạo mới tài khoản!"
+  sessions:
+    new:
+      fore_title: "Đăng Nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      submit: "Đăng Nhập"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up: "Đăng ký ngay!"
+    create:
+      error: "Email hoặc mật khẩu không hợp lệ"
