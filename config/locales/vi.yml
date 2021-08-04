@@ -1,4 +1,8 @@
 vi:
+  shared:
+    error_messages:
+      error_1: "Form gồm"
+      error_2: "Lỗi"
   layouts:
     application:
       title: "Hướng dẫn học Ruby on Rails"
@@ -38,3 +42,15 @@ vi:
   users:
     new:
       fore_title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+    show:
+      fore_title: "Người Dùng"
+      success: "Tìm thấy người dùng!"
+      error: "Không thể tìm thấy người dùng!"
+    create:
+      success: "Tài khoản đã được tạo mới. Chào mừng bạn đến với Sample App!"
+      error: "Lỗi: Không thể tạo mới tài khoản!"
