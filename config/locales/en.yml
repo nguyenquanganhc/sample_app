@@ -11,7 +11,12 @@ en:
     header:
       home: "Home"
       help: "Help"
-      login: "Login"
+      user: "Users"
+      login: "Log in"
+      logout: "Log out"
+      setting: "Settings"
+      profile: "Profile"
+      account: "Account"
     footer:
       about: "About"
       contact: "Contact"
@@ -54,3 +59,13 @@ en:
     create:
       success: "Welcome to the Sample App!"
       error: "Error: Could not create new account"
+  sessions:
+    new:
+      fore_title: "Log In"
+      email: "Email"
+      password: "Password"
+      submit: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+    create:
+      error: "Invalid email/password combination"

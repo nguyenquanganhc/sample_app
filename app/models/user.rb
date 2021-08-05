@@ -10,6 +10,17 @@ class User < ApplicationRecord
             length: {minimum: Settings.password.min_length}
   has_secure_password
 
+  class << self
+    def digest string
+      cost = if ActiveModel::SecurePassword.min_cost
+               BCrypt::Engine::MIN_COST
+             else
+               BCrypt::Engine.cost
+             end
+      BCrypt::Password.create string, cost: cost
+    end
+  end
+
   private
   def downcase_email
     email.downcase!
