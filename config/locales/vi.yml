@@ -67,5 +67,6 @@ vi:
       submit: "Đăng Nhập"
       new_user: "Bạn chưa có tài khoản?"
       sign_up: "Đăng ký ngay!"
+      remember: "Tự động đăng nhập lần sau"
     create:
       error: "Email hoặc mật khẩu không hợp lệ"
