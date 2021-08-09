@@ -89,3 +89,13 @@ en:
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      subject: "Account Activation"
+      click_to_activate: "Click on the link below to activate your account:"
+      check_email: "Please check your email to activate your account."
+      hi: "Hi"
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+      require_activated: "Account not activated. Check your email for the activation link."
