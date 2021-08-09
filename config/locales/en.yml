@@ -1,4 +1,19 @@
 en:
+  hello: "Hello world"
+  tutorial: "Ruby on Rails Tutorial"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  sample_app: "Sample App"
+  success_signup: "Welcome to the Sample App!"
+  fail_signup: "Errors occurred. Please try again."
+  profile_updated: "Profile updated."
+  fail_updated: "Update profile failed."
+  require_login: "Please log in."
+  success_deleted: "Deleted."
+  fail_deleted: "Delete failed."
+  password_expired: "Password reset has been expired."
+  invalid_user: "Invalid user."
+  invalid_password: "Invalid email/password combination"
+  not_found: "Not found."
   shared:
     error_messages:
       error_1: "The form contains"
@@ -21,13 +36,10 @@ en:
       about: "About"
       contact: "Contact"
       new: "News"
-      tutorial: "Ruby on Rails Tutorial"
   static_pages:
     home:
       fore_title: "Home"
-      name: "Welcome To Sample App"
       intro_1: "This is the home page for the"
-      tutorial: "Ruby on Rails Tutorial"
       intro_2: "Sample application."
       signup: "Sign Up Now"
     help:
@@ -45,6 +57,8 @@ en:
       intro: "About the Ruby on Rails Tutorial about the sample app at the"
       outro: "About page"
   users:
+    index:
+      fore_title: "All Users"
     new:
       fore_title: "Sign Up"
       name: "Name"
@@ -54,11 +68,18 @@ en:
       submit: "Create my account"
     show:
       fore_title: "Show"
-      success: "User found!"
-      error: "Could not found user!"
-    create:
-      success: "Welcome to the Sample App!"
-      error: "Error: Could not create new account"
+    edit:
+      fore_title: "Edit"
+      title: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      pass_confirm: "Confirmation"
+      submit: "Save changes"
+      change: "Change"
+    user:
+      confirm: "Are you sure?"
+      delete: "Delete"
   sessions:
     new:
       fore_title: "Log In"
@@ -68,5 +89,3 @@ en:
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember: "Remember me on this computer"
-    create:
-      error: "Invalid email/password combination"

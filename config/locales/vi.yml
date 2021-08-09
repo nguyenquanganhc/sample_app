@@ -1,4 +1,19 @@
 vi:
+  hello: "Hello world"
+  tutorial: "Ruby on Rails Tutorial"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  sample_app: "Ứng dụng mẫu"
+  success_signup: "Chào mừng bạn đến với ứng dụng"
+  fail_signup: "Có lỗi xảy ra. Vui lòng thử lại."
+  profile_updated: "Thông tin cá nhân đã được cập nhật."
+  fail_updated: "Thông tin cá nhân cập nhật thất bại."
+  require_login: "Vui lòng đăng nhập."
+  success_deleted: "Đã xóa"
+  fail_deleted: "Xóa thất bại."
+  password_expired: "Đặt lại mật khẩu đã hết hạn."
+  invalid_user: "Người dùng không hợp lệ."
+  invalid_password: "Email hoặc mật khẩu không hợp lệ"
+  not_found: "Không tìm thấy."
   shared:
     error_messages:
       error_1: "Form gồm"
@@ -21,13 +36,10 @@ vi:
       about: "Thông Tin"
       contact: "Liên Hệ"
       new: "Bài Báo"
-      tutorial: "Ruby on Rails cơ bản"
   static_pages:
     home:
       fore_title: "Trang Chủ"
-      name: "App Minh Họa"
       intro_1: "Đây là trang chủ của"
-      tutorial: "Ruby on Rails cơ bản"
       intro_2: "App minh họa."
       signup: "Đăng Ký Ngay"
     help:
@@ -45,6 +57,8 @@ vi:
       intro: "Thông tin về Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       outro: "Trang thông tin"
   users:
+    index:
+      fore_title: "Mọi Người"
     new:
       fore_title: "Đăng ký"
       name: "Tên"
@@ -54,11 +68,18 @@ vi:
       submit: "Tạo tài khoản"
     show:
       fore_title: "Người Dùng"
-      success: "Tìm thấy người dùng!"
-      error: "Không thể tìm thấy người dùng!"
-    create:
-      success: "Tài khoản đã được tạo mới. Chào mừng bạn đến với Sample App!"
-      error: "Lỗi: Không thể tạo mới tài khoản!"
+    edit:
+      fore_title: "Cập nhật"
+      title: "Cập nhật thông tin cá nhân"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận mật khẩu"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+    user:
+      confirm: "Bạn chắc chứ?"
+      delete: "Xóa"
   sessions:
     new:
       fore_title: "Đăng Nhập"
@@ -68,5 +89,3 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up: "Đăng ký ngay!"
       remember: "Tự động đăng nhập lần sau"
-    create:
-      error: "Email hoặc mật khẩu không hợp lệ"
