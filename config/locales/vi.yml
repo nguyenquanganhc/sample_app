@@ -89,3 +89,13 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       sign_up: "Đăng ký ngay!"
       remember: "Tự động đăng nhập lần sau"
+  user_mailer:
+    account_activation:
+      activate: "Xác thực"
+      subject: "Xác thực tài khoản"
+      click_to_activate: "Nhấn vào link dưới đây để xác thực tài khoản:"
+      check_email: "Kiểm tra email để xác nhận tài khoản của bạn."
+      hi: "Xin chào"
+      activated: "Tài khoản đã sẵn sàng!"
+      invalid_link: "Link xác thực tài khoản không chính xác"
+      require_activated: "Tài khoản vẫn chưa được xác thực, hãy kiểm tra email để nhận link."
