@@ -1,4 +1,4 @@
-<%= t "user_mailer.account_activation.hi" %> <%= @user.name %>,
+<%= t ".hi" %> <%= @user.name %>,
 <%= t "success_signup" %> 
-<%= t "user_mailer.account_activation.click_to_activate" %>
+<%= t ".click_to_activate" %>
 <%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

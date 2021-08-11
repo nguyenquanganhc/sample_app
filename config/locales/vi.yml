@@ -97,5 +97,23 @@ vi:
       check_email: "Kiểm tra email để xác nhận tài khoản của bạn."
       hi: "Xin chào"
       activated: "Tài khoản đã sẵn sàng!"
-      invalid_link: "Link xác thực tài khoản không chính xác"
+      invalid_link: "Link xác thực tài khoản không chính xác."
       require_activated: "Tài khoản vẫn chưa được xác thực, hãy kiểm tra email để nhận link."
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      intro: "Để đặt lại mật khẩu, vui lòng nhấn vào đường link phía dưới:"
+      expire: "Đường link này sẽ hết hạn trong vòng 2 tiếng."
+      not_own_request: "Nếu bạn không yêu cầu thay đổi mật khẩu, hãy bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên như cũ."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+    create:
+      sent_email: "Mail đã được gửi kèm với hướng dẫn thay đổi mật khẩu."
+      email_address_not_found: "Không tìm thấy địa chỉ email."
+    edit:
+      title: "Đặt lại mật khẩu"
+      update: "Cập nhật mật khẩu"
+    update:
+      empty_password: "không được trống."
+      password_reset: "Mật khẩu đã được đặt lại."

@@ -18,3 +18,5 @@ avatar:
   list_size: 50
 pagination:
   per_number: 10
+password_reset:
+  expired_time: 2
