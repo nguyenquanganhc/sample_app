@@ -9,6 +9,7 @@
     </section>
   </aside>
   <div class="col-md-8">
+    <%= render "follow_form" if logged_in? %>
     <% if @microposts.any? %>
       <%= paginate @microposts, theme: "twitter-bootstrap-3" %>
       <h3> <%= t ".microposts" %> (<%= @microposts.count %>)</h3>

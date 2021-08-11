@@ -2,7 +2,14 @@ class User < ApplicationRecord
   USER_ATTRS = %i(name email password password_confirmation).freeze
   RESET_PASSWORD_ATTRS = %i(password password_confirmation).freeze
 
+  has_many  :active_relationships, class_name: Relationship.name,
+            foreign_key: :follower_id, dependent: :destroy
+  has_many  :passive_relationships, class_name: Relationship.name,
+            foreign_key: :followed_id, dependent: :destroy
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
   has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -76,7 +83,22 @@ class User < ApplicationRecord
   end
 
   def feed
-    microposts
+    Micropost.post_user following_ids << id
+  end
+
+  # Follow user
+  def follow other_user
+    following << other_user
+  end
+
+  # Unfollow user
+  def unfollow other_user
+    following.delete other_user
+  end
+
+  # Return if current user following the other_user or not
+  def following? other_user
+    following.include? other_user
   end
 
   private

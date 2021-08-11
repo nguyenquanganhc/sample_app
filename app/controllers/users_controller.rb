@@ -63,12 +63,4 @@ class UsersController < ApplicationController
   def admin_user
     redirect_to root_path unless current_user.admin?
   end
-
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "invalid_user"
-    redirect_to root_path
-  end
 end
