@@ -1,10 +1,11 @@
 class User < ApplicationRecord
-  attr_accessor :remember_token, :activation_token, :reset_token
-  before_save :downcase_email
-  before_create :create_activation_digest
   USER_ATTRS = %i(name email password password_confirmation).freeze
   RESET_PASSWORD_ATTRS = %i(password password_confirmation).freeze
 
+  has_many :microposts, dependent: :destroy
+  attr_accessor :remember_token, :activation_token, :reset_token
+  before_save :downcase_email
+  before_create :create_activation_digest
   validates :name, presence: true,
             length: {maximum: Settings.name.max_length}
   validates :email, presence: true,
@@ -72,6 +73,10 @@ class User < ApplicationRecord
   # Sends activation email.
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
+  end
+
+  def feed
+    microposts
   end
 
   private
