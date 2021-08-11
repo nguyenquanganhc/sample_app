@@ -14,7 +14,16 @@ vi:
   invalid_user: "Người dùng không hợp lệ."
   invalid_password: "Email hoặc mật khẩu không hợp lệ"
   not_found: "Không tìm thấy."
+  image_type: "phải là định dạng hình ảnh hợp lệ"
+  image_size: "phải nhỏ hơn %{size} MB"
+  message_image: "Kích thước tệp tối đa là %{size} MB. Vui lòng chọn một tệp nhỏ hơn."
   shared:
+    user_info:
+      view_profile: "Xem thông tin tài khoản của bạn"
+      micropost: "Các bài viết"
+    micropost_form:
+      compose_micropost: "Soạn bài viết mới..."
+      post_submit: "Đăng"
     error_messages:
       error_1: "Form gồm"
       error_2: "Lỗi"
@@ -42,6 +51,7 @@ vi:
       intro_1: "Đây là trang chủ của"
       intro_2: "App minh họa."
       signup: "Đăng Ký Ngay"
+      micropost_feed: "Danh sách bài viết"
     help:
       fore_title: "Trợ Giúp"
       intro_1: "Tìm sự trợ giúp về  Ruby on Rails tại"
@@ -68,6 +78,7 @@ vi:
       submit: "Tạo tài khoản"
     show:
       fore_title: "Người Dùng"
+      microposts: "Các bài viết"
     edit:
       fore_title: "Cập nhật"
       title: "Cập nhật thông tin cá nhân"
@@ -117,3 +128,15 @@ vi:
     update:
       empty_password: "không được trống."
       password_reset: "Mật khẩu đã được đặt lại."
+  microposts:
+    micropost:
+      posted: "Đăng vào"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Bạn đồng ý xóa chứ?"
+    create:
+      create_post: "Bài viết đã được đăng."
+      fail_post: "Đăng thất bại."
+    destroy:
+      delete_post: "Đã xóa bài đăng."
+      delete_fail: "Xóa bài đăng thất bại."

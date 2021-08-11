@@ -16,7 +16,17 @@ password:
 avatar:
   default_size: 80
   list_size: 50
+  list_micropost_size: 50
 pagination:
   per_number: 10
 password_reset:
   expired_time: 2
+micropost:
+  max_length: 140
+image:
+  size: 5
+  limit: [500, 500]
+image_restricted_types:
+  - image/jpeg
+  - image/gif
+  - image/png

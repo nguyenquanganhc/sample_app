@@ -14,7 +14,16 @@ en:
   invalid_user: "Invalid user."
   invalid_password: "Invalid email/password combination"
   not_found: "Not found."
+  image_type: "must be a valid image format"
+  image_size: "should be less than %{size} MB"
+  message_image: "Maximum file size is 5 MB. Please choose a smaller file."
   shared:
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_micropost: "Compose new micropost..."
+      post_submit: "Post"
     error_messages:
       error_1: "The form contains"
       error_2: "Error"
@@ -42,6 +51,7 @@ en:
       intro_1: "This is the home page for the"
       intro_2: "Sample application."
       signup: "Sign Up Now"
+      micropost_feed: "Micropost feed"
     help:
       fore_title: "Help"
       intro_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -68,6 +78,7 @@ en:
       submit: "Create my account"
     show:
       fore_title: "Show"
+      micopost: "Microposts"
     edit:
       fore_title: "Edit"
       title: "Update your profile"
@@ -117,3 +128,15 @@ en:
     update:
       empty_password: "can't be empty"
       password_reset: "Password has been reset."
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "Delete"
+      confirm: "You sure?"
+    create:
+      create_post: "Post has been created."
+      fail_post: "Fail to post."
+    destroy:
+      delete_post: "Deleted post."
+      delete_fail: "Failed to delete."

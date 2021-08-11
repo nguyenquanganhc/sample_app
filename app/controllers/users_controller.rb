@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.all.page(params[:page]).per Settings.pagination.per_number
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.newest.page params[:page]
+  end
 
   def new
     @user = User.new
@@ -50,16 +52,6 @@ class UsersController < ApplicationController
   private
   def user_params
     params.require(:user).permit User::USER_ATTRS
-  end
-
-  # Before filters
-  # Confirms a logged-in user.
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "require_login"
-    redirect_to login_path
   end
 
   # Confirm the correct user

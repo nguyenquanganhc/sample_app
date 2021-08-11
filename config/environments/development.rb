@@ -72,4 +72,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.hosts.clear
+
+  config.middleware.use I18n::JS::Middleware
 end
