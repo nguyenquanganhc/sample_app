@@ -17,6 +17,7 @@ avatar:
   default_size: 80
   list_size: 50
   list_micropost_size: 50
+  stat_size: 30
 pagination:
   per_number: 10
 password_reset:

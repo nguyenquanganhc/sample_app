@@ -78,7 +78,7 @@ vi:
       submit: "Tạo tài khoản"
     show:
       fore_title: "Người Dùng"
-      microposts: "Các bài viết"
+      micropost: "Các bài viết"
     edit:
       fore_title: "Cập nhật"
       title: "Cập nhật thông tin cá nhân"
@@ -91,6 +91,15 @@ vi:
     user:
       confirm: "Bạn chắc chứ?"
       delete: "Xóa"
+  followers:
+    index:
+      follower: "Người theo dõi"
+  followings:
+    index:
+      following: "Theo dõi những người"
+  submit:
+    follow_submit: "Follow"
+    unfollow_submit: "Unfollow"
   sessions:
     new:
       fore_title: "Đăng Nhập"

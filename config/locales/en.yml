@@ -17,6 +17,8 @@ en:
   image_type: "must be a valid image format"
   image_size: "should be less than %{size} MB"
   message_image: "Maximum file size is 5 MB. Please choose a smaller file."
+  follow_submit: "Follow"
+  unfollow_submit: "Unfollow"
   shared:
     user_info:
       view_profile: "view my profile"
@@ -78,7 +80,7 @@ en:
       submit: "Create my account"
     show:
       fore_title: "Show"
-      micopost: "Microposts"
+      micropost: "Microposts"
     edit:
       fore_title: "Edit"
       title: "Update your profile"
@@ -91,6 +93,12 @@ en:
     user:
       confirm: "Are you sure?"
       delete: "Delete"
+  followers:
+    index:
+      follower: "Followers"
+  followings:
+    index:
+      following: "Following"
   sessions:
     new:
       fore_title: "Log In"
